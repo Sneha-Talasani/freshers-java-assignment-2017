@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding Menu</title>
+</head>
+<body>
+<form name="f1" action ="addingmenu.jsp" method="post">
+<h2>Welcome Admin</h2>
+<h3>Modify Menu</h3>
+<h3 style="text-align: right"><a href="login.html" >logout</a></h3>
+<table>
+<tr>
+<td>Type:</td>
+<td><select name="ddltype">
+<option value="-1">select type of item</option>
+<option value="starters">Starters</option>
+<option value="mainCourse">Main course</option>
+<option value="desserts">Desserts</option>
+<option value="beverages">Beverages</option>
+
+</select></td></tr>
+<tr>
+<td>Item Id:</td>
+<td><input type ="text" name="txtId"value="enter item id"/></td>
+</tr>
+<tr>
+<td>Item Name</td>
+<td><input type ="text" name="txtName"value="enter item name"/></td>
+</tr>
+
+<tr>
+<td>Item Price</td>
+<td><input type ="text" name="txtPrice"value="enter item Price"/></td>
+</tr>
+<tr>
+<td><input type="submit" value="Add item to list"/></td>
+<td><input type="reset" value="       clear       "/></td></tr>
+</table>
+
+</form>
+
+</body>
+</html>
